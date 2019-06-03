@@ -58,6 +58,7 @@ def amount_of_variable_per_school(csv_file_path, variable_result):
 
     return school_numbers
 
-amount_of_variable_per_school('testdata.csv', "is in what city")
+
+amount_of_variable_per_school('testdata.csv', "amount of students")
 
 
