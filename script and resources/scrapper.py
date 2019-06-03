@@ -22,8 +22,8 @@ def amount_of_variable_per_school(csv_file_path, variable_result):
     if (append_decision == "n"):
         append = False
 
-    with open(csv_file_path) as f:
-        row_count = len(f.readlines())
+    #with open(csv_file_path) as f:
+        #row_count = len(f.readlines())
 
     with open(csv_file_path, newline='') as csvfile:
         text = csv.reader(csvfile, delimiter=';', quotechar='|')
